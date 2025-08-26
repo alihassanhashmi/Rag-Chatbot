@@ -32,7 +32,7 @@ else:
 # -----------------------------
 # Step 2: Gemini Setup
 # -----------------------------
-API_KEY = "AIzaSyDDI5ARg46cPZbxD7EjhQPk5HxwwJAsnrg"   # 🔑 Replace with your Gemini API key
+API_KEY = ""   # 🔑 Replace with your Gemini API key
 genai.configure(api_key=API_KEY)
 gemini_model = genai.GenerativeModel("gemini-1.5-flash")
 

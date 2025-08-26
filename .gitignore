@@ -1,0 +1,28 @@
+# Ignore model folder
+models/
+model/
+*.bin
+*.pt
+*.onnx
+
+model/phi2
+
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environment
+.venv/
+venv/
+env/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore secrets
+*.env
+apikeys.json
